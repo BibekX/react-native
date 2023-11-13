@@ -204,7 +204,7 @@ const DrawerNavigator = () => (
       }}
       component={ShopLocatorStackNavigator}
     />
-    <Drawer.Screen
+    {/* <Drawer.Screen
       name="Join Now"
       options={{
         drawerLabel: () => (
@@ -239,7 +239,7 @@ const DrawerNavigator = () => (
         title: "My Account",
       }}
       component={MyAccountScreen}
-    />
+    /> */}
   </Drawer.Navigator>
 );
 

@@ -15,7 +15,7 @@ import { useFonts } from "expo-font";
 import { SelectList } from "react-native-dropdown-select-list";
 
 function SignupScreen() {
-  const [stage, setStage] = useState(3);
+  const [stage, setStage] = useState(1);
   const [form, setForm] = useState({
     email: "",
     confirmEmail: "",
@@ -109,6 +109,7 @@ function SignupScreen() {
               keyboardType="email-address"
               textContentType="emailAddress"
               autoCapitalize="none"
+            
               value={form.email}
             />
             <TextInput
@@ -324,7 +325,7 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
     borderRadius: 25,
-    color: "#fff",
+    color: "#000",
     borderColor: "#000",
     paddingLeft: 20,
   },
